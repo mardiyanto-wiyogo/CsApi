@@ -130,6 +130,24 @@ DELETE /api/users/{id}/roles/{roleName}
 
 ---
 
+## Identity Implementation Approach
+
+This project uses a **custom identity implementation** rather than ASP.NET Identity.
+
+### Rationale
+
+* Full control over data models and authentication flow
+* Clear demonstration of authentication and authorization fundamentals
+* Minimal framework abstraction for portfolio and learning purposes
+
+The system explicitly implements:
+
+* Password hashing and validation
+* User and role relationships
+* JWT generation and validation
+
+---
+
 ## Technology Stack
 
 * **.NET 8 / .NET 7**
