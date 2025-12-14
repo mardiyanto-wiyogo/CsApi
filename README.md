@@ -150,11 +150,17 @@ The system explicitly implements:
 
 ## Technology Stack
 
-* **.NET 8 / .NET 7**
+* **.NET 8**
 * **ASP.NET Core Web API**
 * **Entity Framework Core**
 * **JWT Bearer Authentication**
 * Database: SQL Server / PostgreSQL / MySQL (configurable)
+
+---
+
+## Requirements
+- .NET 8 SDK
+- NuGet packages managed centrally via Directory.Packages.props
 
 ---
 
