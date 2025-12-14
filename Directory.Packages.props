@@ -1,5 +1,11 @@
 <Project>
   <ItemGroup>
+    <!-- Password Hashing -->
+    <PackageVersion Include="BCrypt.Net-Next" Version="4.0.3" />
+
+    <!-- JWT Authentication -->
+    <PackageVersion Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.22" />
+
     <!-- ASP.NET Core -->
     <PackageVersion  Include="Microsoft.AspNetCore.OpenApi" Version="8.0.22" />
     
