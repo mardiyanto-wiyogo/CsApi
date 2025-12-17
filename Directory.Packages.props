@@ -1,5 +1,8 @@
 <Project>
   <ItemGroup>
+    <!-- API Versioning -->
+    <PackageVersion Include="Asp.Versioning.Mvc" Version="8.1.0" />
+
     <!-- Password Hashing -->
     <PackageVersion Include="BCrypt.Net-Next" Version="4.0.3" />
 
